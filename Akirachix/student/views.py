@@ -34,4 +34,5 @@ def edit_student(request,pk):
 		form=StudentForm(instance=student)
 
 	return render(request,"edit_student.html",{"form":form})
+	
 # Create your views here.
